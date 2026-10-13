@@ -23,7 +23,7 @@ const toggleDrawer = () => {
 
 const items = [
   { label: 'option.home', to: '/home', icon: 'pi pi-home' },
-  { label: 'option.new-box-item', to: '/storage/items/new', icon: 'pi pi-plus' }
+  { label: 'option.new-box-item', to: '/inventory/items/new', icon: 'pi pi-plus' }
 ];
 </script>
 

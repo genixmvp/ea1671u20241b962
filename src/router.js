@@ -1,6 +1,6 @@
 import { createRouter, createWebHistory } from "vue-router";
 import Home from "@/shared/presentation/views/home.vue";
-import storageRoutes from "@/storage/presentation/storage-routes.js";
+import storageRoutes from "@/inventory/presentation/inventory-routes.js";
 
 const pageNotFound = () => import("@/shared/presentation/views/page-not-found.vue");
 
@@ -11,7 +11,7 @@ const pageNotFound = () => import("@/shared/presentation/views/page-not-found.vu
  */
 const routes = [
     { path: '/home', name: 'home', component: Home, meta: { title: 'Home' } },
-    { path: '/storage', children: storageRoutes },
+    { path: '/inventory', children: storageRoutes },
     { path: '/', redirect: '/home' },
     { path: '/:pathMatch(.*)*', name: 'page-not-found', component: pageNotFound, meta: { title: 'Page Not Found' } }
 ];
