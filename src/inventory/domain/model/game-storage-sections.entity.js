@@ -1,1 +1,0 @@
-id, name, gameGenre, gameGenreId, maxCapacity, storageUnits, minRating
