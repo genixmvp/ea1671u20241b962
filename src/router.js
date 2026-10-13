@@ -1,6 +1,6 @@
 import { createRouter, createWebHistory } from "vue-router";
 import Home from "@/shared/presentation/views/home.vue";
-import storageRoutes from "@/inventory/presentation/inventory-routes.js";
+import inventoryRoutes from "@/inventory/presentation/inventory-routes.js";
 
 const pageNotFound = () => import("@/shared/presentation/views/page-not-found.vue");
 
@@ -11,7 +11,7 @@ const pageNotFound = () => import("@/shared/presentation/views/page-not-found.vu
  */
 const routes = [
     { path: '/home', name: 'home', component: Home, meta: { title: 'Home' } },
-    { path: '/inventory', children: storageRoutes },
+    { path: '/games', children: inventoryRoutes },
     { path: '/', redirect: '/home' },
     { path: '/:pathMatch(.*)*', name: 'page-not-found', component: pageNotFound, meta: { title: 'Page Not Found' } }
 ];
@@ -22,7 +22,7 @@ const router = createRouter({
 });
 
 router.beforeEach((to) => {
-    document.title = `PokéBox - ${to.meta.title ?? ''}`;
+    document.title = `RAWG Game Collection - ${to.meta.title ?? ''}`;
     return true;
 });
 

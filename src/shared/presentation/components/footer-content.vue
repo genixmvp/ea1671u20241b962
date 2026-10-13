@@ -1,8 +1,8 @@
 <script setup>
 /**
- * Footer content.
- * @summary Copyright, author and PokeAPI attribution.
- * @author Carolina Navarro Aldoradin
+ - Footer content.
+ - @summary Copyright, author and RAWG API attribution.
+ - @author Carolina Navarro Aldoradin
  */
 import { useI18n } from "vue-i18n";
 
@@ -16,7 +16,7 @@ const { t } = useI18n();
       <span>{{ t('footer.developed-by') }} u20241b962 - Carolina Navarro Aldoradin</span>
       <span>
         {{ t('footer.attribution') }}
-        <a href="https://pokeapi.co/" target="_blank" rel="noopener noreferrer" class="text-white font-bold">PokeAPI</a>
+        <a href="https://rawg.io/apidocs" target="_blank" rel="noopener noreferrer" class="text-white font-bold">RAWG API</a>
       </span>
     </div>
   </footer>
