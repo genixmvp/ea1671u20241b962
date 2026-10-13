@@ -2,7 +2,7 @@ import { Game } from '../domain/model/game.entity.js';
 
 /**
  * Game assembler.
- * @summary Transforms RAWG API responses into Game domain entities.
+ * @summary Transforms RAWG API resources into Game domain entities.
  * @author Carolina Navarro Aldoradin
  */
 export class GameAssembler {
