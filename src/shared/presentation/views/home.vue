@@ -2,11 +2,10 @@
 /**
  - Home view.
  - @summary Displays the home welcome texts and the game storage sections collection grid.
- - @author Tu Nombre y Apellido
+ - @author Carolina Navarro Aldoradin
  */
 import { useI18n } from "vue-i18n";
-import GameStorageSectionSummaryList from "../components/game-storage-section-summary-list.vue";
-
+import GameStorageSectionSummaryList from "@/inventory/presentation/components/game-storage-section-summary-list.vue";
 const { t } = useI18n();
 </script>
 
