@@ -1,0 +1,60 @@
+{
+  "app": {
+    "title": "Games Make People Happy Management",
+    "toggle-menu": "Toggle navigation menu",
+    "logo-alt": "RAWG logo"
+  },
+  "option": {
+    "home": "Home",
+    "new-game-item": "New Game Inventory Item"
+  },
+  "footer": {
+    "copyright": "Copyright © 2026. RAWG Game Collection. All rights reserved.",
+    "developed-by": "Developed by",
+    "attribution": "Video game data provided by"
+  },
+  "home": {
+    "title": "Home",
+    "subtitle": "Discover and Organize Your Favorite Video Games.",
+    "collections-title": "My Game Collections"
+  },
+  "game-storage-section": {
+    "no-games": "No Games",
+    "quantity": "Quantity",
+    "total-games": "Total Games",
+    "used-capacity": "Used Capacity",
+    "available-capacity": "Available Capacity"
+  },
+  "game-item": {
+    "title": "New Game Inventory Item",
+    "subtitle": "Add Games to Your Collection",
+    "storage-section": "Game Storage Section",
+    "select-storage-section": "Select a storage section",
+    "game": "Video Game",
+    "select-game": "Select a video game",
+    "quantity": "Quantity",
+    "rating": "Rating",
+    "min-rating": "Min. Rating",
+    "storage-units": "Storage Units",
+    "available-capacity": "Available Capacity",
+    "not-available": "N/A",
+    "create": "Create",
+    "cancel": "Cancel",
+    "created": "Game inventory item created successfully"
+  },
+  "validation": {
+    "storage-section-required": "Select a game storage section.",
+    "game-required": "Select a video game.",
+    "quantity-invalid": "Quantity must be an integer greater than zero.",
+    "rating-invalid": "The rating of this video game is not available or invalid. It cannot be registered.",
+    "rating-too-low": "The rating ({value}) is lower than the minimum rating of this section ({min}).",
+    "capacity-exceeded": "Required capacity ({required}) exceeds the available capacity ({available}).",
+    "catalog-error": "Video game data could not be retrieved from RAWG API. Try again later.",
+    "create-error": "The game inventory item could not be created."
+  },
+  "page-not-found": {
+    "title": "Page Not Found",
+    "content": "The path {path} is not available.",
+    "go-home": "Go Home"
+  }
+}
