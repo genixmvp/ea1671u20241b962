@@ -1,7 +1,7 @@
 /**
  - Inventory routes.
  - @summary Child routes of the inventory bounded context (mounted under /inventory o /games).
- - @author Tu Nombre y Apellido
+ - @author Carolina Navarro
  */
 const gameItemForm = () => import('./views/game-inventory-item-form.vue');
 

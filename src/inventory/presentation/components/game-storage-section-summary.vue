@@ -2,7 +2,7 @@
 /**
  - Game storage section summary.
  - @summary Card with the section name, its game genre, and capacity indicators.
- - @author Tu Nombre y Apellido
+ - @author Carolina Navarro
  */
 import { computed } from "vue";
 import { useI18n } from "vue-i18n";

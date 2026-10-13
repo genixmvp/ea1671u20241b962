@@ -2,7 +2,7 @@
 /**
  - Game inventory item form view.
  - @summary Registers a game inventory item after validating rating and capacity.
- - @author Tu Nombre y Apellido
+ - @author Carolina Navarro
  */
 import { computed, onMounted, ref, watch } from "vue";
 import { useRouter } from "vue-router";

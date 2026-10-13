@@ -2,7 +2,7 @@
 /**
  - Game storage section summary list.
  - @summary Responsive grid with two game storage section summaries per row.
- - @author Tu Nombre y Apellido
+ - @author Carolina Navarro
  */
 import { onMounted } from "vue";
 import { storeToRefs } from "pinia";
