@@ -1,0 +1,60 @@
+{
+  "app": {
+    "title": "Games Make People Happy Management",
+    "toggle-menu": "Alternar menú de navegación",
+    "logo-alt": "Logotipo de RAWG"
+  },
+  "option": {
+    "home": "Inicio",
+    "new-game-item": "Nuevo Ítem de Inventario de Juegos"
+  },
+  "footer": {
+    "copyright": "Copyright © 2026. RAWG Game Collection. Todos los derechos reservados.",
+    "developed-by": "Desarrollado por",
+    "attribution": "Datos de videojuegos proporcionados por"
+  },
+  "home": {
+    "title": "Inicio",
+    "subtitle": "Descubre y organiza tus videojuegos favoritos.",
+    "collections-title": "Mis Colecciones de Juegos"
+  },
+  "game-storage-section": {
+    "no-games": "No hay juegos",
+    "quantity": "Cantidad",
+    "total-games": "Total de Juegos",
+    "used-capacity": "Capacidad Usada",
+    "available-capacity": "Capacidad Disponible"
+  },
+  "game-item": {
+    "title": "Nuevo Ítem de Inventario de Juegos",
+    "subtitle": "Agrega juegos a tu colección",
+    "storage-section": "Sección de Almacenamiento",
+    "select-storage-section": "Selecciona una sección de almacenamiento",
+    "game": "Videojuego",
+    "select-game": "Selecciona un videojuego",
+    "quantity": "Cantidad",
+    "rating": "Calificación",
+    "min-rating": "Calificación Mínima",
+    "storage-units": "Unidades de Almacenamiento",
+    "available-capacity": "Capacidad Disponible",
+    "not-available": "N/D",
+    "create": "Crear",
+    "cancel": "Cancelar",
+    "created": "Ítem de inventario creado exitosamente"
+  },
+  "validation": {
+    "storage-section-required": "Selecciona una sección de almacenamiento de juegos.",
+    "game-required": "Selecciona un videojuego.",
+    "quantity-invalid": "La cantidad debe ser un número entero mayor que cero.",
+    "rating-invalid": "La calificación de este videojuego no está disponible o no es válida. No se puede registrar.",
+    "rating-too-low": "La calificación ({value}) es menor que el mínimo requerido para esta sección ({min}).",
+    "capacity-exceeded": "La capacidad requerida ({required}) excede la capacidad disponible ({available}).",
+    "catalog-error": "No se pudieron recuperar los datos de videojuegos desde la API de RAWG. Inténtelo más tarde.",
+    "create-error": "No se pudo crear el ítem de inventario de juegos."
+  },
+  "page-not-found": {
+    "title": "Página No Encontrada",
+    "content": "La ruta {path} no está disponible.",
+    "go-home": "Ir al Inicio"
+  }
+}
