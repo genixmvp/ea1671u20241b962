@@ -1,8 +1,8 @@
 <script setup>
 /**
- * Layout.
- * @summary Toolbar with logo and title, collapsible sidebar with options and language switcher, and footer.
- * @author Carolina Navarro Aldoradin
+ - Layout.
+ - @summary Toolbar with logo and title, collapsible sidebar with options and language switcher, and footer.
+ - @author Tu Nombre y Apellido
  */
 import { ref } from "vue";
 import { useI18n } from "vue-i18n";
@@ -23,7 +23,7 @@ const toggleDrawer = () => {
 
 const items = [
   { label: 'option.home', to: '/home', icon: 'pi pi-home' },
-  { label: 'option.new-box-item', to: '/inventory/items/new', icon: 'pi pi-plus' }
+  { label: 'option.new-game-item', to: '/games/items/new', icon: 'pi pi-plus' }
 ];
 </script>
 

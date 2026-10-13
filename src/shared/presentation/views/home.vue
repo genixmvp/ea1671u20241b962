@@ -1,20 +1,25 @@
 <script setup>
 /**
- * Home view.
- * @summary Welcome text and the "My Storage Boxes" section.
- * @author Carolina Navarro Aldoradin
+ - Home view.
+ - @summary Displays the home welcome texts and the game storage sections collection grid.
+ - @author Tu Nombre y Apellido
  */
 import { useI18n } from "vue-i18n";
-import StorageBoxSummaryList from "@/inventory/presentation/components/inventory-box-summary-list.vue";
+import GameStorageSectionSummaryList from "../components/game-storage-section-summary-list.vue";
 
 const { t } = useI18n();
 </script>
 
 <template>
-  <section class="flex flex-column gap-3" aria-labelledby="home-title">
-    <h1 id="home-title" class="m-0">{{ t('home.title') }}</h1>
-    <p class="m-0">{{ t('home.content') }}</p>
-    <h2 class="mb-0">{{ t('home.my-game-collections') }}</h2>
-    <storage-box-summary-list/>
+  <section class="flex flex-column gap-4" aria-labelledby="home-title">
+    <div>
+      <h1 id="home-title" class="m-0 text-3xl font-bold">{{ t('home.title') }}</h1>
+      <p class="mt-2 mb-0 text-color-secondary text-lg">{{ t('home.subtitle') }}</p>
+    </div>
+
+    <div class="flex flex-column gap-3">
+      <h2 class="m-0 text-xl font-semibold">{{ t('home.collections-title') }}</h2>
+      <game-storage-section-summary-list/>
+    </div>
   </section>
 </template>
